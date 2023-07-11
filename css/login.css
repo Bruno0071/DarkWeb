@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+}
+
+body{
+    background-color: #1f2122;
+}
+
+.logo-icon{
+    margin-right: 20px;
+    width: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1f2122;
+    margin-bottom: 20px;
+}
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+ul li{
+    margin: 30px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 18px;
+    padding: 10px 15px;
+    padding-bottom: 0px;
+}
+
+ul li a{
+    font-weight: 700;
+}
+
+ul li a:hover{
+    border-bottom: 1px solid #0d98c4;
+}
+
+span a{
+    font-family: 'Alfa Slab One';
+    font-size: 25px;
+}
+
+.button-login{
+    border: 1px solid #0d98c4;
+    padding: 15px 60px;
+    border-radius: 25px;
+}
+
+.button-login:hover{
+    transition: 1s;
+    letter-spacing: 4px;
+    background-color: #0d98c4;
+}
+
+ /**parte login**/
+
+p{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+.txt-info{
+    border-bottom: 2px solid #0d98c4;
+}
+
+main{
+    margin-top: 30px;
+}
+
+ h1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 50px;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+ }
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #27292a;
+    margin: 30px 130px;
+    border-radius: 25px;
+    padding: 100px 30px;
+    gap: 130px;
+ }
+
+ .login, .form{
+    display: flex;
+    flex-flow: column wrap;
+ }
+
+ .endereco{
+    width: 400px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    margin: 0px 30px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    text-align: center;
+    align-items: center;
+ }
+
+
+ .button{
+    padding: 15px 40px;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    margin: 0px 50px;
+    font-size: 20px;
+    background-color: #0d98c4;
+    border: none;
+    cursor: pointer;
+ }
+
+ .button:hover{
+    transition: 1s;
+    letter-spacing: 4px;
+    box-shadow: 1px 1px 50px #0d98c4;
+ }
+
+ footer{
+    display: flex;
+    justify-content: center;
+    background-color: #0f0f0f;
+    font-family: 'Poppins';
+    margin-top: 90px;
+    padding: 15px;
+}
